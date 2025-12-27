@@ -238,9 +238,9 @@ I've hidden two cool images by XOR with the same secret key so you can't see the
 This challenge requires performing a visual XOR between the RGB bytes of the two images - not an XOR of all the data bytes of the files.
 
 flag pic
-![[flag_7ae18c704272532658c10b5faad06d74 1.png]]
+![[flag_7ae18c704272532658c10b5faad06d74.png]]
 lemur pic
-![[lemur_ed66878c338e662d3473f0d98eedbd0d 1.png]]
+![[lemur_ed66878c338e662d3473f0d98eedbd0d.png]]
 
 This challenge is a classic application of a vulnerability known as a **"Two-Time Pad."** Because both images were encrypted using the exact same secret key via the XOR operation, the key can be eliminated by XORing the two encrypted files together.
 
@@ -294,4 +294,4 @@ result_img.show()
 ```
 
 obtinem imaginea
-![[decrypted_flag.png]]
+![alt text](decrypted_flag-1.png)
