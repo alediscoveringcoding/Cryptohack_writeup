@@ -294,4 +294,4 @@ result_img.show()
 ```
 
 obtinem imaginea
-![alt text](decrypted_flag-1.png)
+!![alt text](decrypted_flag-1.png)
